@@ -32,10 +32,10 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &to 1         &to 1  &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &to 0   &to 0 &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
-                                    &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
-                        >;
+   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &to 0         &to 0 &kp DOWN &kp UP &kp RIGHT &trans &trans
+   &kp LSHFT  &trans       &trans       &trans       &trans       &trans        &trans   &trans   &trans &trans    &trans &trans
+                                        &kp LGUI     &trans       &kp SPACE     &kp RET  &trans   &kp RALT
+                        >;   
                 };
 
                 raise_layer {
@@ -45,8 +45,8 @@
 // | . |  1  |  2  |  3  |  -  | BKSP|   |     |  !  |  @  |  #  |     |  v   |
 //                     | 0 | + | ENT |   | ENT |     | ) |
                         bindings = <
-   &kp RPAR  &kp N7  &kp N8  &kp N9  &kp KP_SLASH     &to 0          &to 0   &kp AMPS  &kp STAR   &kp LPAR   &trans &kp UP
-   &kp LPAR  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY  &to 2          &to 2   &kp DLLR  &kp PRCNT  &kp CARET  &kp LEFT &kp RIGHT
+   &kp LPAR  &kp N7  &kp N8  &kp N9  &kp KP_SLASH     &to 0          &to 0   &kp AMPS  &kp STAR   &kp LPAR   &trans &kp UP
+   &kp RPAR  &kp N4  &kp N5  &kp N6  &kp KP_MULTIPLY  &to 2          &to 2   &kp DLLR  &kp PRCNT  &kp CARET  &kp LEFT &kp RIGHT
    &kp DOT   &kp N1  &kp N2  &kp N3  &kp KP_MINUS     &kp BSPC       &trans  &kp EXCL  &kp AT     &kp HASH   &trans &kp DOWN
                              &kp N0  &kp KP_PLUS      &kp RET        &kp SPACE   &kp RET    &kp RPAR
                         >;
